@@ -1,0 +1,12 @@
+--Aditional Dependencies
+@emotion/react
+@emotion/styled
+@fontsource/roboto
+@mui/icons-material
+@mui/material
+react-player
+react-router-dom
+axios
+
+-- API
+https://rapidapi.com/ytdlfree/api/youtube-v31/

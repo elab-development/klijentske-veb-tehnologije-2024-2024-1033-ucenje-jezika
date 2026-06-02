@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border py-2 px-3 rounded-full
+  }
+
+  .nav-li {
+    @apply font-bold text-3xl p-8
+  }
+
+  .offers-p {
+    @apply text-lg font-bold text-gray-700
+  }
+
+  .plan-img-2 {
+    @apply row-span-2 object-cover w-full h-full p-2
+  }
+
+  .plan-img-3 {
+    @apply row-span-3 object-cover w-full h-full p-2
+  }
+
+  .footer-h6 {
+    @apply font-extrabold pt-2
+  }
+
+  .footer-li {
+    @apply py-1
+  }
+}

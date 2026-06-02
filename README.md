@@ -1,73 +1,77 @@
-# React + TypeScript + Vite
+# react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Projects From Various Sources
 
-Currently, two official plugins are available:
+## basic-projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Basic projects made by freeCodeCamp.org
 
-## React Compiler
+1. birthday-reminder (Simple List Project)
+2. tours (Simple List of Tours)
+3. reviews (List of Reviews with random button)
+4. accordion (Questions & Answers with toggle button)
+5. menu (Food Menu with filtering buttons)
+6. tabs (CV Experience tab with active filtering buttons)
+7. slider (Reviews slider)
+8. lorem (Lorem ipsum text generator with form)
+9. color-generator
+10. grocery-list (Grocery list with form, add a page with all the lists and submit button for saving current list to that page)
+11. navbar (Navbar with useRef)
+12. sidebar (Sidebar & Modal with using Context)
+13. stripe (Stripe homepage mockup, add one page to this)
+14. cart (Mockup Cart with reducer)
+15. cocktails (Full prepared homework page with outsourced API)
+16. quiz (Quiz with questions generated with API)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+17. hangman (by Traversy Media)
+18. trvl - should add some content to pages (perhaps some API) (by Brian Design)
+19. experiences - should create router (by Code Commerce)
+20. weather-app (by Code Commerce)
 
-## Expanding the ESLint configuration
+## calendar-api
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Google Calendar API
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+calendar-api - App for creating events that can be seen on users
+Google Calendar page - by yoursTRULY
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## crypto-app
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Listing of popular Crypto currencies
+Youtube - by Code Commerce
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## covid-19-tracker
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+covid-19-tracker - Covid19 Website with Next.js
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## movie-watchlist
+
+Youtube - Matt The Dev
+
+- used for ITEH React homework
+
+## pizzeria
+
+Youtube - Pedro Tech
+
+- used for ITEH React homework
+
+## thenetninja
+
+- chapters - The Net Ninja
+
+chapter-02 - Introduction & Setup + React Basics
+chapter-03 - Using Create-React-App
+chapter-08 - Intro to State & useState, Components & Props,
+Styling React Apps, User Input & Events, Fetching Data & useEffect
+chapter-09 - Project - Memory Game
+chapter-10 - The React Router
+chapter-11 - Project - Recipe Directory + React Context & Reducers,
+Firebase Firestore
+chapter-14 - Project - myMoney
+chapter-15 - Firestore Rules
+chapter-16 - Building & Deploying
+chapter-17 - Project Management Site - The Dojo
+chapter-18 - React with Firebase 9, Reading List Project
+chapter-19 - React Router 6
+chapter-20 - JS Helper

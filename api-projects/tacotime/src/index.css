@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+/* GLOBAL STYLES */
+
+:root {
+  --primary-color: #fecb34;
+  --secondary-color: #e4faff;
+  --tertiary-color: #009a6e;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Amiko', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.lobsterFont {
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.balooFont {
+  font-family: 'Baloo 2', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+a:visited {
+  color: var(--black);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: grid;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* GLOBAL STYLES END */

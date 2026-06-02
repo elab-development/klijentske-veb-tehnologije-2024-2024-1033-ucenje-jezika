@@ -1,0 +1,22 @@
+.filters {
+  display: flex;
+  gap: 10px;
+  padding: 2em;
+}
+
+.filters p {
+  background-color: var(--main-color);
+  color: white;
+  padding: 7px 10px;
+  font-size: 2em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filters p:hover {
+  background-color: var(--main-color-hover);
+}
+
+.filters p.active {
+  background-color: var(--red);
+}

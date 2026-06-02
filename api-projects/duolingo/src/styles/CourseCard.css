@@ -1,0 +1,15 @@
+.result {
+  display: none;
+}
+
+.result.passed {
+  display: flex;
+  font-size: 1.2rem;
+  color: green;
+}
+
+.result.failed {
+  display: flex;
+  font-size: 1.2rem;
+  color: red;
+}

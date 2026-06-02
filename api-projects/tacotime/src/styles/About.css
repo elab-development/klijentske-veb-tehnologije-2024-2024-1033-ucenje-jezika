@@ -1,0 +1,146 @@
+.about {
+  padding: 2em 0;
+  background-color: var(--tertiary-color);
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutContainer .aboutContent {
+  flex: 0.4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding: 0 10em;
+}
+
+.aboutContainer .aboutContent h2 {
+  font-size: 96px;
+}
+
+.aboutContainer .aboutContent p {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.aboutContainer .aboutImg {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContainer .aboutImg img {
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.aboutContainer .aboutImg .aboutInfo {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+}
+
+.elipse1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.elipse2 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.elipse3 {
+  position: absolute;
+  top: 70%;
+  left: 12%;
+}
+.elipse4 {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.elipse5 {
+  position: absolute;
+  top: 77%;
+  left: 32%;
+}
+.elipse6 {
+  position: absolute;
+  top: 18%;
+  left: 60%;
+}
+.elipse7 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.elipse8 {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+.elipse9 {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+}
+.elipse10 {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+}
+
+@media screen and (max-width: 1560px) {
+  .aboutContainer .aboutContent h2 {
+    font-size: 72px;
+    line-height: 60px;
+  }
+
+  .aboutContainer .aboutContent p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutContainer .aboutContent h2 {
+    font-size: 64px;
+    line-height: 50px;
+  }
+
+  .aboutContainer .aboutContent p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutContainer .aboutContent h2 {
+    font-size: 52px;
+    line-height: 40px;
+  }
+
+  .aboutContainer .aboutContent p {
+    font-size: 14px;
+  }
+
+  .aboutContainer .aboutContent {
+    flex: 0.4;
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+}

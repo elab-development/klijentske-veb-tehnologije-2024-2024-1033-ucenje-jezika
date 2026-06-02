@@ -1,0 +1,178 @@
+.recipeDetails {
+  padding: 2em 0;
+}
+
+.detailsContainer {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+}
+
+.detailsContainer .detailsContent {
+  flex: 0.4;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.detailsContainer .detailsContent h2 {
+  color: var(--tertiary-color);
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: capitalize;
+  line-height: 74px;
+}
+
+.detailsContainer .detailsContent p {
+  font-size: 24px;
+  color: var(--black);
+  margin-top: 1em;
+}
+
+.detailsContainer .detailsContent .detailsIcons {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.detailsContainer .detailsContent .detailsIcons div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+.detailsContainer .detailsContent .detailsIcons p {
+  margin-top: 0.3em;
+  font-weight: 700;
+}
+
+.detailsContainer .detailsContent .detailsIcons img {
+  width: 30px;
+  height: 30px;
+}
+
+.detailsContainer .detailsImg {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsContainer .detailsImg img {
+  transform: rotate(90deg);
+  width: 50%;
+  border-radius: 30px;
+}
+
+.ingredientsSection h3 {
+  font-size: 40px;
+  padding: 2em 1em;
+}
+
+.ingredients p {
+  font-size: 32px;
+  padding-left: 2em;
+}
+
+.methodSection {
+  margin-top: 5em;
+  background-color: var(--secondary-color);
+}
+
+.methodSection h3 {
+  font-size: 40px;
+  padding: 1em;
+}
+
+.method {
+  padding-bottom: 2em;
+}
+
+.method p {
+  font-size: 32px;
+  padding-left: 2em;
+}
+
+.method p span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1560px) {
+  .detailsContainer .detailsContent h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .detailsContainer .detailsContent p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .detailsContainer .detailsContent h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .detailsContainer .detailsContent p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .detailsContainer .detailsContent h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .detailsContainer .detailsContent p {
+    font-size: 14px;
+  }
+
+  .detailsContainer .detailsContent .detailsIcons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .detailsContainer .detailsContent {
+    flex: 0.4;
+    padding: 2em;
+  }
+
+  .ingredientsSection h3 {
+    font-size: 30px;
+    padding: 1em 0.5em;
+  }
+
+  .ingredients p {
+    font-size: 20px;
+    padding-left: 1em;
+  }
+
+  .methodSection {
+    margin-top: 2em;
+  }
+
+  .methodSection h3 {
+    font-size: 30px;
+    padding: 0.5em;
+  }
+
+  .method p {
+    font-size: 20px;
+    padding-left: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .detailsContainer {
+    flex-direction: column;
+  }
+
+  .detailsContainer .detailsImg img {
+    width: 80%;
+  }
+}

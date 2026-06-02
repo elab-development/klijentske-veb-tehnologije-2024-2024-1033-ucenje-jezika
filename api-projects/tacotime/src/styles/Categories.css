@@ -1,0 +1,86 @@
+.category {
+  padding: 2em 0;
+}
+
+.category-title h2 {
+  font-weight: 600;
+  font-size: 55px;
+  text-transform: capitalize;
+}
+
+.category-title p {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 1em;
+}
+
+.category-cards {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2em;
+  padding: 2em 0;
+}
+
+.cat-card {
+  text-align: center;
+  padding: 1em;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.cat-card img {
+  object-fit: cover;
+  max-height: 350px;
+}
+
+.cat-card h6 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.cat-card:hover,
+.card:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1560px) {
+  .category-title h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .category-title p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .category-title h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .category-title p {
+    font-size: 16px;
+  }
+
+  .cat-card h6 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .category-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .category-title p {
+    font-size: 14px;
+  }
+
+  .cat-card h6 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}

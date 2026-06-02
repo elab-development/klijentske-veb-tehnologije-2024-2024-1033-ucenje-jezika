@@ -1,0 +1,88 @@
+import { type Location } from './types';
+
+export const LOCATIONS: Location[] = [
+  {
+    id: 'tara',
+    name: 'Tara National Park',
+    lat: 43.92,
+    lon: 19.47,
+    imageUrl: '/img/locations/tara.jpg',
+  },
+  {
+    id: 'stara-planina',
+    name: 'Stara Planina (Babin Zub / Midžor)',
+    lat: 43.36943,
+    lon: 22.609,
+    imageUrl: '/img/locations/stara-planina.jpg',
+  },
+  {
+    id: 'rtanj',
+    name: 'Rtanj (Šiljak)',
+    lat: 43.749,
+    lon: 21.904,
+    imageUrl: '/img/locations/rtanj.jpg',
+  },
+  {
+    id: 'fruska-gora',
+    name: 'Fruška Gora',
+    lat: 45.15631,
+    lon: 19.70965,
+    imageUrl: '/img/locations/fruska-gora.jpg',
+  },
+  {
+    id: 'ovcar-kablar',
+    name: 'Ovčar–Kablar Gorge',
+    lat: 43.904,
+    lon: 20.196,
+    imageUrl: '/img/locations/ovcar-kablar.jpg',
+  },
+  {
+    id: 'kopaonik',
+    name: 'Kopaonik (Pančićev vrh)',
+    lat: 43.2682,
+    lon: 20.8202,
+    imageUrl: '/img/locations/kopaonik.jpg',
+  },
+  {
+    id: 'zlatibor',
+    name: 'Zlatibor (Tornik)',
+    lat: 43.6542,
+    lon: 19.6392,
+    imageUrl: '/img/locations/zlatibor.jpg',
+  },
+  {
+    id: 'djerdap',
+    name: 'Đerdap / Miroč (Veliki Štrbac)',
+    lat: 44.5951,
+    lon: 22.268,
+    imageUrl: '/img/locations/djerdap.jpg',
+  },
+  {
+    id: 'uvac',
+    name: 'Uvac Special Nature Reserve (Molitva)',
+    lat: 43.42696,
+    lon: 19.9343,
+    imageUrl: '/img/locations/uvac.jpg',
+  },
+  {
+    id: 'suva-planina',
+    name: 'Suva planina (Trem)',
+    lat: 43.22137,
+    lon: 22.1114,
+    imageUrl: '/img/locations/suva-planina.jpg',
+  },
+  {
+    id: 'divcibare',
+    name: 'Divčibare (Crni vrh)',
+    lat: 44.10694,
+    lon: 19.99167,
+    imageUrl: '/img/locations/divcibare.jpg',
+  },
+  {
+    id: 'avala',
+    name: 'Avala (Avala Tower)',
+    lat: 44.69595,
+    lon: 20.51465,
+    imageUrl: '/img/locations/avala.png',
+  },
+];

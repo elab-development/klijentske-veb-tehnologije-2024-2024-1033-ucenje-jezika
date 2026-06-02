@@ -1,0 +1,133 @@
+.contact {
+  position: relative;
+  margin: 2em 0;
+  fill: var(--black);
+}
+
+.contact .container {
+  display: flex;
+
+  overflow: hidden;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.contact-content {
+  background: var(--secondary-color);
+  flex: 0.5;
+  padding: 2em;
+}
+
+.contact .container .img {
+  background: var(--primary-color);
+  background-position: center;
+  background-size: fill;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .img .imglizard {
+  width: 50%;
+  margin-top: 5em;
+  padding: 1em;
+}
+
+.contact .container .img .imgenvelope {
+  width: 50%;
+  margin-bottom: 5em;
+  padding: 1em;
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-left: 1.5em;
+}
+
+.contact h2 {
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: capitalize;
+  padding: 0.5em 0;
+  line-height: 74px;
+}
+
+.contact p {
+  font-size: 24px;
+  color: var(--black);
+}
+
+.contact .btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-content .content .recipe input {
+  width: 80%;
+  padding: 1em 2em;
+  border-radius: 30px;
+  color: gray;
+}
+
+.contact-content .content .recipe .textbox {
+  padding: 2em 2em;
+}
+
+.contact-content .content .recipe .btn {
+  margin-top: 1em;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1560px) {
+  .contact h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+
+  .contact .btn {
+    font-size: 16px;
+    width: 120px;
+    gap: 0.5em;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}

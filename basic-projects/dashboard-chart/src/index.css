@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.card {
+  width: 60%;
+  height: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  border-radius: 20px;
+}
+
+.chart canvas {
+  width: 100% !important;
+  height: 80%;
+}
+
+.filter-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.toggle-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #ccc;
+  border-color: #ccc;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.toggle-btn.collapsed {
+  transform: rotate(180deg); /* Rotate the arrow when collapsed */
+}
+
+.filter-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  border-color: blue;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.filter-buttons {
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  transition: max-height 0.3s;
+}
+
+.filter-buttons.collapsed {
+  max-height: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    width: 90%;
+    height: 90%;
+  }
+}
