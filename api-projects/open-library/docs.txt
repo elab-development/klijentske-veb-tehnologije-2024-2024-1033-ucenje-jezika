@@ -1,6 +1,0 @@
--- Additional Libraries
-react-router-dom
-react-icons
-
--- API
-https://openlibrary.org/developers/api
